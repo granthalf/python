@@ -95,16 +95,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-#INSTALL PYTHON
-#Not Admin
-#PowerShell> winget configure -f https://aka.ms/python-config
-#
-#MAKE EXE
-#pip install pyinstaller
-#pyinstaller --onefile file.py
-#pyinstaller --onefile --icon=picture.ico archive.py
-#
-#Out:
-#dist/
-#   file.exe
