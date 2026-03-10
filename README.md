@@ -36,6 +36,9 @@ NOTE: in the minut I'm writing, the version in my side is: 3.13.12
 
                                       SCRIPTS
 
+0. {SVG2BASE64}, Convert a SVG file into a BASE64 file
+  py -c "import base64,sys;print('data:image/svg+xml;base64,'+base64.b64encode(open(sys.argv[1],'rb').read()).decode())" file.svg
+
 1. Directory {PNGICOEXE} => CREATE ICO FROM PNG / CHECK ICO / ICO IN EXE
 
   A. PNG => ICO
