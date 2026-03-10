@@ -22,11 +22,15 @@ pip install pyinstaller
 pip install Pillow
 pip install pyzipper [optional]
 
+NOTE: if pip is not recognized, you need to ensure your path should find pip*.exe (usually anything like "???\AppData\Local\Programs\Python\Python313\Scripts")
+
 PROMPT
   a) use a console, for example CMD
   b) Mind for this sheet & these tiny scripts: any script needs to be in same directory as the file to use
   c) be sure any environement variable is well set, and/or go inside the directory with python scripts
   d) check the python running: [python --version] => if it's a fail, use [py] as [py --version]
+
+NOTE: in the minut I'm writing, the version in my side is: 3.13.12
 
 ---
 
