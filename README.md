@@ -1,3 +1,4 @@
+```
 ####################################################################################
 #                                 PYTHON Scripts
 #
@@ -45,4 +46,4 @@ PROMPT
     d) run under a CMD [start explorer.exe]
     e) Check if the ico is still displayed now. If the error is staying remaining, analyse why.
 
-
+```
